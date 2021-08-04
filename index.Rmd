@@ -126,78 +126,263 @@ class: inverse, middle
 
 ---
 
-## Redes Logísticas
+## FATORES QUE INFLUENCIAM AS DECISÕES DE REDE
 
-O projeto da rede de transporte é fator decisivo para garantir responsividade e custo competitivo na cadeia de suprimentos. 
+.pull-left[
+### Sob a ótica do transportador
+- Custo relacionado ao veículo
+- Custo operacional fixo
+- Custo relacionado à viagem
+- Custo relacionado à quantidade
+- Custo indireto
+]
 
-### Rede de entrega direta
+.pull-right[
+### Sob a ótica do embarcador
+- Custo de transporte
+- Custo de estoque
+- Custo de instalação
+- Custo de processamento
+- Custo do nível de serviço
+]
+
+.tip[
+O projeto da rede logística é fator decisivo para garantir responsividade e eficiência na cadeia de suprimentos. 
+]
+---
+
+# Tipos de redes logísticas
+
+## Rede de entrega direta
+.question[
 Todas as entregas acontecem diretamente do fornecedor para o varejista. Neste caso, a rota de cada carregamento é pré-determinada, sendo necessário definir apenas o volume a ser transportado e o meio de transporte mais eficiente. 
+]
 
-Vantagens:
+---
+
+# Tipos de redes logísticas
+
+## Rede de entrega direta
+
+.pull-left[
+.midi[
+**Vantagens:**
 - eliminação de intermediários logísticos, como atacadistas ou centros de distribuição;   
 - simplicidade de operação e coordenação;   
 - decisão sobre embarque é local;   
 - baixa interferência entre fluxos;   
 - tempo de transporte do fornecedor até ao ponto de varejo é reduzido.   
 
-São aconselháveis quando o tamanho das lojas varejistas for suficientemente grande para justificar lotes de suprimentos ótimos próximos à carga cheia proveniente de cada fornecedor. 
+]]
 
-Desvantagens:
+.pull-right[
+.midi[
+**Desvantagens:**
 - no caso de lojas pequenas, a rede de entrega direta é onerosa;   
 - geraria um elevado custo de estoque na cadeia de suprimentos;   
 - os custos de recebimento são altos porque cada fornecedor deve fazer uma entrega separada.    
+]]
 
-```{r}
+.tip[
+.midi[
+São aconselháveis quando o tamanho das lojas varejistas for suficientemente grande para justificar lotes de suprimentos ótimos próximos à carga cheia proveniente de cada fornecedor. 
+]]
+
+---
+
+# Tipos de redes logísticas
+
+## Rede de entrega direta
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("img/rede1.png")
 ```
 
 
 ---
 
-```{r}
+# Tipos de redes logísticas
+
+## Entrega direta com milk run (coletas programadas)
+
+.question[
+Milk Run é um tipo de transporte para entrega e coleta de produtos em que um caminhão pode tanto entregar ou coletar um produto partindo de um único fornecedor para diversos varejistas ou de diversos fornecedores para entregar para apenas um varejista, respectivamente.
+]
+
+**Vantagens:**
+- Eliminação de depósitos intermediários
+- Redução dos custos de transporte por consolida as entregas a diversas lojas em um único caminhão. 
+
+---
+
+# Tipos de redes logísticas
+
+## Entrega direta com milk run (coletas programadas)
+
+.pull-left[
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("img/rede2.png")
 ```
+]
 
-
----
-3.2	Entrega direta com milk run (coletas programadas)
-Milk Run é um tipo de transporte para entrega e coleta de produtos em que um caminhão pode tanto entregar ou coletar um produto partindo de um único fornecedor para diversos varejistas ou de diversos fornecedores para entregar para apenas um varejista, respectivamente.
-
-```{r}
+.pull-right[
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("img/rede3.png")
 ```
----
 
-
-Vantagens:
-	Eliminação de depósitos intermediários
-	Redução dos custos de transporte por consolida as entregas a diversas lojas em um único caminhão. 
+]
 
 
 ---
+
+# Tipos de redes logísticas
 
 ## Todas as entregas via centro de distribuição centralizado
-```{r}
+
+.question[
+A cadeia varejista distribui as lojas por localização geográfica e um CD é designado para atendimento destas lojas. Os fornecedores enviam as entregas para o CD e de lá as mercadorias são encaminhadas para as lojas. 
+]
+
+.midi[
+- O CD pode desempenhar dois papéis diferentes, a saber: (i) **armazenar estoque**; (ii) **local de transferência**. 
+
+- Os CDs auxiliam na redução dos custos da cadeia de suprimentos quando os fornecedores estão longe dos varejistas e os custos de transporte são altos, por meio de economias de escala. 
+
+- O CD pode fazer apenas crossdocking, quando os lotes destinados às lojas servidas pelos CDs forem grandes o suficiente para atingir economias de escalas obtidas no ressuprimento de entrada. 
+]
+
+---
+
+# Tipos de redes logísticas
+
+## Todas as entregas via centro de distribuição centralizado
+
+.question[
+Crosdocking é o processo no qual chegam caminhões de diversos fornecedores, cuja carga é desmembrada em caminhões para diversos varejistas em carregamentos menores. 
+]
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("img/rede4.png")
 ```
 
+
 ---
 
-```{r}
+# Tipos de redes logísticas
+
+
+##	Entregas via centro de distribuição utilizando milk run
+
+.question[
+As entregas são realizadas a partir de um CD utilizando-se milk run quando os lotes a serem entregues em cada varejista forem pequenos, visando reduzir os custos com transportes por meio da consolidação. 
+]
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 knitr::include_graphics("img/rede5.png")
 ```
 
 
+---
+
+# Tipos de redes logísticas
+
+
+##	Rede sob medida
+.question[
+O transporte mescla crosdocking, milk run, transportadoras truck load, less than truck load e carga expressa. 
+]
 
 ---
 
-```{r}
-knitr::include_graphics("img/rede6.png")
-```
+## Vantagens e Desvantagens das diferentes redes de transporte
 
+.small[
+Estrutura de Rede	|Vantagens|	Desvantagens
+----------------| ----------| -------------
+Entrega direta|Não possui depósito intermediário <br/>	Fácil de coordenar	|Grandes estoques <br/>	Despesa significativa com recebimento
+Entrega direta com milk runs|	Redução dos custos de transporte para lotes pequenos <br/>		Redução dos estoques	|	Coordenação mais complexa
+Todas as entregas via CD com armazenagem|	Redução dos custos de entrada do transporte por meio de consolidação| Maior custo de estoque <br/>	Mais manuseio no CD
+Todas entregas via CD com crossdocking|	Pouquíssima necessidade de estoques <br/>	Redução no custo de transporte devido à consolidação | Coordenação mais complexa
+Entregas via CD com milk runs|	Redução no custo de saída do transporte para pequenos lotes	| Coordenação ainda mais complexa
+Rede sob medida	| Escolha do transporte mais adequado às necessidades individuais do produto ou da loja	| Coordenação muitíssimo complexa
+]
 
 
 ---
+
+## TRADE-OFFS NO PROJETO DE TRANSPORTE
+
+**Trade-off entre o custo de transporte e responsividade ao cliente**
+
+**Trade-off entre custos de transporte e estoque**
+
+---
+
+## TRADE-OFFS NO PROJETO DE TRANSPORTE
+
+**Trade-off entre o custo de transporte e responsividade ao cliente**
+
+.midi[
+Se a empresa possui elevada responsividade (prazos de entrega enxutos, elevada confiabilidade), as entregas são muito fracionadas, implicando em elevados custos de transporte. 
+
+Se a empresa entrega de forma mais consolidada, abrindo mão da elevada responsividade, os custos de transporte diminuem por conta da economia de escala. 
+
+.tip[
+A agregação temporária da demanda por ser interessante, levando à redução dos custos de transporte, pois implica em lotes de entrega mais consolidados, além de reduzir a variação do tamanho das entregas de um embarque a outro. Entretanto, essa estratégia prejudica o tempo de resposta ao cliente. A vantagem da agregação temporária diminui à medida que o intervalo de tempo no qual a agregação acontece é prolongado. 
+]]
+
+---
+
+## TRADE-OFFS NO PROJETO DE TRANSPORTE
+
+## Trade-off entre custos de transporte e estoque
+
+.tip[
+Duas decisões fundamentais que fomentam esta troca:    
+(i) escolha do meio de transporte; e      
+(ii) agregação de estoque.    
+]
+
+
+---
+
+## Trade-off entre custos de transporte e estoque
+
+**Escolha de Transporte**   
+
+.midi[
+A escolha de transporte é uma decisão de **projeto** (empresa a ser contratada) e de **operação** (meio de transporte) em uma cadeia de suprimento. 
+
+**Meios de transporte** mais baratos normalmente acarretam em **maiores lotes de ressuprimentos** e em **lead times** mais longos, resultando em **maiores níveis de estoque na cadeia de suprimentos**. Modos que permitem **lotes menores**, gerando **níveis de estoque mais econômicos**, possuem **custos de contratação mais elevados**. 
+]
+
+.tip[
+
+Ao selecionar um modo de transporte, os gerentes devem considerar os custos de estoque. Modos muito onerosos podem ser justificados se analisados de forma holística sob a ótica da cadeia de suprimentos. 
+]
+
+---
+
+## Trade-off entre custos de transporte e estoque
+
+
+**Agregação de estoques**
+
+.midi[
+As empresas podem **reduzir** significativamente o **estoque de segurança** **agregando** os estoques fisicamente em uma localidade. Entretanto, nesta situação, **os custos de transporte aumentam**. 
+
+Para determinar o **nível de agregação de estoque**, as empresas devem considerar o trade-off entre custos de transporte, estoque e instalações. 
+
+A **agregação de estoques** é aconselhável quando os **custos de estoque e instalações** representam uma parcela significativa dos **custos da cadeia de suprimentos**. Isto é, empresas com predominância de produtos com alta relação valor/peso e forte incerteza com relação à demanda. 
+
+.tip[
+As decisões sobre a agregação de estoque devem considerar custos de transporte e estoque. A agregação é vantajosa quando os produtos possuírem alta relação valor/peso, alta incerteza de demanda e se os pedidos dos clientes forem grandes.
+]]
+
+---
+
 
 ## Atividades da semana
 
@@ -206,6 +391,7 @@ Prazo | Atividade
 04/08/2021|[**Estudos Autônomos** - Logistica Urbana](https://retaoliveira.github.io/places/courses/log/est_3/)
 11/08/2021|[**Estudos Autônomos** - Transportes](https://retaoliveira.github.io/places/courses/log/est_4/)
 11/08/2021|[**Estudos Autônomos** - Gestão de Estoques](https://retaoliveira.github.io/places/courses/log/est_5/)
+18/08/2021|[**Estudos Autônomos** - Redes Logísticas](https://retaoliveira.github.io/places/courses/log/est_6/)
 31/08/2021|[Projeto Final](https://retaoliveira.github.io/places/courses/log/project/)
 ---
 
