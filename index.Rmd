@@ -1,9 +1,9 @@
 ---
 title: "Logística"
-subtitle: "Encontros Síncronos 10 e 11"
+subtitle: "Encontros Síncronos 10, 11 e 12"
 author: 
   - <br></br>Renata Oliveira
-date: '04/08/2021 e 11/08/2021'
+date: '04/08/2021, 11/08/2021 e 25/08/2021'
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -383,6 +383,22 @@ As decisões sobre a agregação de estoque devem considerar custos de transport
 
 ---
 
+# Revisão da distribuição de pontos
+
+Pontos|	Entrega|	Atividade
+------|--------|-----------
+10| 08/06 | Estudos Autônomos 1 - Nivel de serviço logístico
+10| 29/06 | Estudos Autônomos 2 - KPIs
+10| 29/06 | Estudos Autônomos 3 - Logística Urbana
+10| 06/07 | Estudos Autônomos 4 - Gestão de Transportes
+10| 13/07 | Estudos Autônomos 5 - Gestão de estoques e armazenagem
+10| 13/07 | Estudos Autônomos 6 - Redes Logísticas e Custo
+10| 03/08 | Estudos Autônomos 7 - Logística Sustentável, Multivarejo e Omnichannel
+20|	10/08	| Projeto incremental 1
+10| | Engajamento
+TOTAL:| |	100 pontos
+
+---
 
 ## Atividades da semana
 
