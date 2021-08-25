@@ -408,6 +408,12 @@ As decisões sobre a agregação de estoque devem considerar custos de transport
 — **Desequilíbrio nos Fluxos**: Outro fator de variação nos custos é o desequilíbrio nos fluxos. No caso do transporte de passageiros, eles costumam ser pendulares (quem vai volta), o que geralmente não ocorre para as cargas.   
 
 
+---
+
+class: inverse, middle
+
+## Investimentos logísticos
+
 
 ---
 
