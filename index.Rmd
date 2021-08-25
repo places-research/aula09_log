@@ -383,6 +383,34 @@ As decisões sobre a agregação de estoque devem considerar custos de transport
 
 ---
 
+## Custos em Logística
+
+### 1.3 Fatores que Influenciam nos Custos   
+
+
+— **Quilometragem Desenvolvida**: O custo por quilômetro diminui quanto mais o veículo rodar, pois o custo fixo é dividido pela quilometragem. Há, contudo, que se observar o uso da velocidade econômica de operação do veículo, pois o aumento da velocidade pode influenciar no consumo de combustível, de pneus e de manutenção, tirando a vantagem obtida com a nova quilometragem.   
+
+— **Tipo de Tráfego**: É sabido que na cidade o veículo gasta mais combustível por quilômetro rodado e tem um desgaste maior do que em áreas não urbanas.   
+
+— **Tipo de Via**: O custo varia também em função do tipo de estrada por onde o ônibus ou o caminhão trafegar. Isto engloba superfície de rolamento, condição de conservação, topografia, sinuosidade etc.    
+
+
+---
+
+## Custos em Logística
+
+### 1.3 Fatores que Influenciam nos Custos   
+
+— **Região**: Conforme o lugar onde a transportadora atua, os salários, impostos, preços de combustível etc. podem ser diferentes.   
+
+— **Porte do Veículo**: Um fator de redução do custo por tonelada/quilômetro ou passageiro/quilômetro transportado é a maior capacidade do veículo, desde que bem aproveitada.   
+
+— **Desequilíbrio nos Fluxos**: Outro fator de variação nos custos é o desequilíbrio nos fluxos. No caso do transporte de passageiros, eles costumam ser pendulares (quem vai volta), o que geralmente não ocorre para as cargas.   
+
+
+
+---
+
 # Revisão da distribuição de pontos
 
 Pontos|	Entrega|	Atividade
@@ -392,9 +420,9 @@ Pontos|	Entrega|	Atividade
 10| 29/06 | Estudos Autônomos 2 - KPIs
 10| 29/06 | Estudos Autônomos 3 - Logística Urbana
 10| 06/07 | Estudos Autônomos 4 - Gestão de Transportes
-10| 13/07 | Estudos Autônomos 5 - Gestão de estoques e armazenagem
-10| 13/07 | Estudos Autônomos 6 - Redes Logísticas e Custo
-10| 03/08 | Estudos Autônomos 7 - Logística Sustentável, Multivarejo e Omnichannel
+10| 01/09 | Estudos Autônomos 5 - Gestão de estoques e armazenagem
+10| 08/09 | Estudos Autônomos 6 - Redes Logísticas e Custo
+10| 08/09 | Estudos Autônomos 7 - Logística Sustentável, Multivarejo e Omnichannel
 10| | Engajamento
 TOTAL:| |	100 pontos
 
