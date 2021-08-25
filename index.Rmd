@@ -387,6 +387,7 @@ As decisões sobre a agregação de estoque devem considerar custos de transport
 
 Pontos|	Entrega|	Atividade
 ------|--------|-----------
+20|	10/07	| Projeto incremental 1
 10| 08/06 | Estudos Autônomos 1 - Nivel de serviço logístico
 10| 29/06 | Estudos Autônomos 2 - KPIs
 10| 29/06 | Estudos Autônomos 3 - Logística Urbana
@@ -394,7 +395,6 @@ Pontos|	Entrega|	Atividade
 10| 13/07 | Estudos Autônomos 5 - Gestão de estoques e armazenagem
 10| 13/07 | Estudos Autônomos 6 - Redes Logísticas e Custo
 10| 03/08 | Estudos Autônomos 7 - Logística Sustentável, Multivarejo e Omnichannel
-20|	10/08	| Projeto incremental 1
 10| | Engajamento
 TOTAL:| |	100 pontos
 
@@ -404,11 +404,9 @@ TOTAL:| |	100 pontos
 
 Prazo | Atividade
 ------|----------
-04/08/2021|[**Estudos Autônomos** - Logistica Urbana](https://retaoliveira.github.io/places/courses/log/est_3/)
-11/08/2021|[**Estudos Autônomos** - Transportes](https://retaoliveira.github.io/places/courses/log/est_4/)
-11/08/2021|[**Estudos Autônomos** - Gestão de Estoques](https://retaoliveira.github.io/places/courses/log/est_5/)
-18/08/2021|[**Estudos Autônomos** - Redes Logísticas](https://retaoliveira.github.io/places/courses/log/est_6/)
-31/08/2021|[Projeto Final](https://retaoliveira.github.io/places/courses/log/project/)
+01/09/2021|[**Estudos Autônomos** - Gestão de Estoques](https://retaoliveira.github.io/places/courses/log/est_5/)
+08/09/2021|[**Estudos Autônomos** - Redes Logísticas](https://retaoliveira.github.io/places/courses/log/est_6/)
+08/09/2021|[**Estudos Autônomos** - Logística sustentável, Multivarejo e Omnichannel](https://retaoliveira.github.io/places/courses/log/est_7/)
 ---
 
 class: center, middle
